@@ -33,6 +33,11 @@ package com.lux.core.fight
 			loadRes();
 		}
 		
+		public function get selfAvatar():Avatar
+		{
+			return _selfAvatar;
+		}
+
 		/**
 		 * 加载资源 
 		 * 
@@ -50,8 +55,8 @@ package com.lux.core.fight
 		{
 			if(r==1)
 			{
-				initScence();
 				initRole();
+				initScence();
 			}
 		}
 		

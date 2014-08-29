@@ -1,6 +1,7 @@
 package com.lux.core.fight
 {
-	import starling.display.Sprite;
+	import flash.geom.Point;
+	
 	import starling.events.Touch;
 	import starling.events.TouchEvent;
 	import starling.events.TouchPhase;
@@ -13,10 +14,11 @@ package com.lux.core.fight
 	 */
 	public class SceneMouseModel
 	{
-		private var _spr:Sprite;
-		public function SceneMouseModel(sp:Sprite)
+		private var _spr:SceneView;
+		public function SceneMouseModel(sp:SceneView)
 		{
 			_spr = sp;
+			addEvent();
 		}
 		
 		/**
@@ -67,20 +69,19 @@ package com.lux.core.fight
 		
 		private function mouseMove(touch:Touch):void
 		{
-			// TODO Auto Generated method stub
-			
+			trace("移动");
 		}
 		
 		private function mouseUp(touch:Touch):void
 		{
-			// TODO Auto Generated method stub
-			
+			trace("放开");
+			var point:Point = touch.getLocation(_spr);
+			_spr.selfAvatar.moveTo(point.x,point.y)
 		}
 		
 		private function mouseDown(touch:Touch):void
 		{
-			// TODO Auto Generated method stub
-			
+			trace("按下");
 		}
 		
 	}

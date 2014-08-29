@@ -75,6 +75,10 @@ package com.lux.core.fight
 		 */		
 		private function initRole():void
 		{
+			
+			var spr:Sprite = _asset.createSprite("spr_mainUI");
+			addChild(spr);
+			
 			var avatarVO:AvatarVO = AvatarConfigModel.getInstance().getAvatarVOByTableId(10001);
 			_selfAvatar = new Avatar(avatarVO,_asset);
 			_selfAvatar.x = 200;

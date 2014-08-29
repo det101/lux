@@ -23,6 +23,8 @@ package com.lux.core.avatar
 		private static const INJURED:String = "anim_throw";
 		private static const STANDE:String = "anim_idle";
 		
+		private static const SPEED_DIS:int = 5;
+		
 		private var _speed:int = 3;		//移动速度
 		private var _targetX:int;
 		private var _targetY:int;
@@ -42,7 +44,7 @@ package com.lux.core.avatar
 		public function advanceTime(time:Number):void
 		{
 			next();
-			if(_targetX-2<=x&&x<=_targetX+2)
+			if(_targetX-SPEED_DIS<=x&&x<=_targetX+SPEED_DIS&&_targetY-SPEED_DIS<=y&&y<=_targetY+SPEED_DIS)
 			{
 				Starling.juggler.remove(this);
 			}
@@ -53,10 +55,14 @@ package com.lux.core.avatar
 //			var arr:Array = _path.shift();
 //			_targetX = arr[0];
 //			_targetY = arr[1];
-			_angle = Math.atan2(_targetY-this.y,_targetY-this.x);
-			if(Math.abs(_angle)<Math.PI)
+			_angle = Math.atan2(_targetY-this.y,_targetX-this.x);
+			if(Math.abs(_angle)<Math.PI*0.5)
 			{
 				this.scaleX = -1;
+			}
+			else
+			{
+				this.scaleX = 1;
 			}
 			this.x += _speed*Math.cos(_angle);
 			this.y += _speed*Math.sin(_angle);

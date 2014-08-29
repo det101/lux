@@ -76,7 +76,7 @@ package com.lux.core.fight
 		{
 			trace("放开");
 			var point:Point = touch.getLocation(_spr);
-			_spr.selfAvatar.moveTo(point.x,point.y)
+			_spr.selfAvatar.moveTo(touch.globalX,touch.globalY)
 		}
 		
 		private function mouseDown(touch:Touch):void

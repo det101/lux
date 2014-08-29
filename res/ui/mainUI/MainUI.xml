@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:db047eda96037989725309c4dc30f255:2e0da5c849353ce89e850a4d3d9b4b87:640f1f34f8184f9262337b8ab436cf07$ -->
+<TextureAtlas imagePath="MainUI.png">
+    <SubTexture name="bar_green" x="232" y="2" width="32" height="32"/>
+    <SubTexture name="bar_light" x="232" y="36" width="150" height="11"/>
+    <SubTexture name="battle" x="2" y="2" width="114" height="114"/>
+    <SubTexture name="level" x="118" y="2" width="112" height="81"/>
+    <SubTexture name="s9_bar_yellow" x="202" y="85" width="32" height="32"/>
+    <SubTexture name="s9_barbg_black" x="160" y="85" width="40" height="40"/>
+    <SubTexture name="s9_barbg_white" x="118" y="85" width="40" height="40"/>
+</TextureAtlas>

@@ -1,0 +1,51 @@
+<TextureAtlas imagePath="MainUI1.png">
+  <SubTexture name="img_Zombie_symbol_ladder_3" x="98" y="179" width="44" height="93" frameX="-11" frameWidth="62" frameY="-3" frameHeight="97"/>
+  <SubTexture name="img_Zombie_symbol_ladder_rightleg_upper" x="443" y="223" width="17" height="28"/>
+  <SubTexture name="img_Zombie_symbol_ladder_1" x="98" y="86" width="59" height="91" frameX="0" frameWidth="66" frameY="-11" frameHeight="103"/>
+  <SubTexture name="img_Zombie_symbol_ladder_rightfoot" x="333" y="237" width="28" height="17"/>
+  <SubTexture name="img_Zombie_gargantuar_telephonepole" x="0" y="0" width="173" height="84"/>
+  <SubTexture name="img_Zombie_symbol_ladder_rightarm_upper" x="333" y="256" width="20" height="22" frameX="-5" frameWidth="28" frameY="-4" frameHeight="30"/>
+  <SubTexture name="img_Zombie_gargantuar_outerleg_upper" x="310" y="330" width="49" height="37"/>
+  <SubTexture name="img_Zombie_symbol_ladder_rightarm_lower" x="58" y="274" width="23" height="15" frameX="-1" frameWidth="25" frameY="-4" frameHeight="21"/>
+  <SubTexture name="img_Zombie_gargantuar_outerleg_lower" x="193" y="306" width="56" height="38"/>
+  <SubTexture name="img_Zombie_symbol_ladder_outerhand" x="312" y="263" width="16" height="19"/>
+  <SubTexture name="img_Zombie_gargantuar_outerleg_foot" x="362" y="309" width="64" height="31"/>
+  <SubTexture name="img_Zombie_symbol_ladder_outerarm_upper2" x="339" y="205" width="17" height="30"/>
+  <SubTexture name="img_Zombie_gargantuar_outerarm_upper" x="0" y="274" width="56" height="51"/>
+  <SubTexture name="img_Zombie_symbol_ladder_outerarm_hand2" x="443" y="253" width="16" height="20"/>
+  <SubTexture name="img_Zombie_gargantuar_outerarm_lower" x="363" y="245" width="52" height="62"/>
+  <SubTexture name="img_Zombie_symbol_ladder_outerarm_hand" x="417" y="255" width="20" height="22"/>
+  <SubTexture name="img_Zombie_gargantuar_outerarm_hand" x="0" y="327" width="46" height="41"/>
+  <SubTexture name="img_Zombie_symbol_ladder_lowerbody1" x="339" y="153" width="30" height="26" frameX="0" frameWidth="31" frameY="0" frameHeight="26"/>
+  <SubTexture name="img_Zombie_gargantuar_jaw" x="469" y="99" width="36" height="23"/>
+  <SubTexture name="img_Zombie_symbol_ladder_lower" x="425" y="173" width="24" height="28"/>
+  <SubTexture name="img_Zombie_gargantuar_innlerleg_foot" x="48" y="332" width="58" height="28"/>
+  <SubTexture name="img_Zombie_symbol_ladder_leftfoot" x="425" y="153" width="36" height="18" frameX="0" frameWidth="37" frameY="0" frameHeight="18"/>
+  <SubTexture name="img_Zombie_gargantuar_innerleg_lower" x="135" y="306" width="56" height="40"/>
+  <SubTexture name="img_Zombie_symbol_ladder_leftarm_upper" x="425" y="223" width="16" height="30" frameX="0" frameWidth="18" frameY="0" frameHeight="30"/>
+  <SubTexture name="img_Zombie_gargantuar_innerarm_upper" x="83" y="274" width="50" height="56"/>
+  <SubTexture name="img_Zombie_symbol_ladder_leftarm_lower" x="425" y="203" width="33" height="18" frameX="-1" frameWidth="34" frameY="-8" frameHeight="30"/>
+  <SubTexture name="img_thome4" x="273" y="0" width="96" height="151"/>
+  <SubTexture name="img_Zombie_gargantuar_innerarm_lower" x="428" y="312" width="45" height="44"/>
+  <SubTexture name="img_Zombie_symbol_ladder_jaw" x="135" y="274" width="21" height="14"/>
+  <SubTexture name="img_thome3" x="371" y="0" width="96" height="151"/>
+  <SubTexture name="img_Zombie_gargantuar_innerarm_hand" x="361" y="342" width="45" height="41"/>
+  <SubTexture name="img_Zombie_symbol_ladder_innerarm_hand2" x="159" y="86" width="9" height="17"/>
+  <SubTexture name="img_thome2" x="159" y="153" width="96" height="151"/>
+  <SubTexture name="img_Zombie_gargantuar_head" x="257" y="235" width="53" height="68"/>
+  <SubTexture name="img_Zombie_symbol_ladder_innerarm_hand" x="439" y="275" width="16" height="19"/>
+  <SubTexture name="img_thome1" x="175" y="0" width="96" height="151"/>
+  <SubTexture name="img_Zombie_gargantua_innerleg_upper" x="257" y="305" width="51" height="41"/>
+  <SubTexture name="img_Zombie_symbol_ladder_head" x="312" y="284" width="48" height="44"/>
+  <SubTexture name="img_thome0" x="0" y="86" width="96" height="151"/>
+  <SubTexture name="img_Zombie_gargantua_body2" x="0" y="239" width="83" height="33"/>
+  <SubTexture name="img_Zombie_symbol_ladder_hammer" x="469" y="124" width="26" height="33" frameX="0" frameWidth="26" frameY="0" frameHeight="34"/>
+  <SubTexture name="img_Zombie_gargantua_body1" x="108" y="348" width="127" height="103"/>
+  <SubTexture name="img_Zombie_symbol_ladder_body" x="461" y="258" width="44" height="52" frameX="0" frameWidth="44" frameY="0" frameHeight="53"/>
+  <SubTexture name="img_face001" x="257" y="153" width="80" height="80"/>
+  <SubTexture name="img_Tween_1" x="339" y="181" width="28" height="22" frameX="0" frameWidth="29" frameY="0" frameHeight="23"/>
+  <SubTexture name="img_Zombie_symbol_ladder_5" x="463" y="159" width="45" height="97" frameX="-16" frameWidth="62" frameY="0" frameHeight="97"/>
+  <SubTexture name="img_Zomby_symbol_ladder_2" x="371" y="153" width="52" height="90" frameX="-3" frameWidth="62" frameY="-6" frameHeight="97"/>
+  <SubTexture name="img_Zombie_symbol_ladder_4" x="469" y="0" width="41" height="97" frameX="-16" frameWidth="62" frameY="0" frameHeight="97"/>
+  <SubTexture name="img_Zombie_symbol_ladder_upper" x="312" y="235" width="19" height="26" frameX="-2" frameWidth="24" frameY="-1" frameHeight="29"/>
+</TextureAtlas>

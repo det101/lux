@@ -20,7 +20,7 @@ package
 		public function Taige()
 		{
 			super();
-			
+			 
 			// 支持 autoOrient
 			stage.align = StageAlign.TOP_LEFT;
 			stage.scaleMode = StageScaleMode.NO_SCALE;

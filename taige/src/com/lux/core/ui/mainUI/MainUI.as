@@ -54,6 +54,8 @@ package com.lux.core.ui.mainUI
 				var spr:Sprite = _asset.createSprite("spr_mainUI");
 				addChild(spr);
 				callBack("enterFightScene");
+				
+				initView();
 			}
 		}
 		

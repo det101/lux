@@ -5,6 +5,8 @@ package com.lux.core.fight
 	import com.lux.core.avatar.AvatarVO;
 	import com.lux.core.configModel.AvatarConfigModel;
 	
+	import flash.geom.Point;
+	
 	import lzm.starling.swf.SwfAssetManager;
 	import lzm.starling.swf.display.SwfMovieClip;
 	
@@ -36,6 +38,15 @@ package com.lux.core.fight
 		public function get selfAvatar():Avatar
 		{
 			return _selfAvatar;
+		}
+		
+		public function getAvatarByPoint(p:Point):Avatar
+		{
+			if(_selfAvatar.bounds.containsPoint(p))
+			{
+				return _selfAvatar;
+			}
+			return null;
 		}
 
 		/**

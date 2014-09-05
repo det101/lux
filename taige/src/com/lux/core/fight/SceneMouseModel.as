@@ -1,5 +1,7 @@
 package com.lux.core.fight
 {
+	import com.lux.core.avatar.Avatar;
+	
 	import flash.geom.Point;
 	
 	import starling.events.Touch;
@@ -15,6 +17,8 @@ package com.lux.core.fight
 	public class SceneMouseModel
 	{
 		private var _spr:SceneView;
+		private var _currentAvatar:Avatar;
+		private var _currentPoint:Point;
 		public function SceneMouseModel(sp:SceneView)
 		{
 			_spr = sp;
@@ -70,18 +74,43 @@ package com.lux.core.fight
 		private function mouseMove(touch:Touch):void
 		{
 			trace("移动");
+			var point:Point;
+			if(_currentAvatar)
+			{
+				point = touch.getLocation(_spr);
+				_currentAvatar.x = point.x;
+				_currentAvatar.y = point.y;
+			}
 		}
 		
 		private function mouseUp(touch:Touch):void
 		{
 			trace("放开");
-			var point:Point = touch.getLocation(_spr);
-			_spr.selfAvatar.moveTo(touch.globalX,touch.globalY)
+			if(_currentAvatar==null)		//如果没有选中对象
+			{
+				var point:Point = touch.getLocation(_spr);
+				_spr.selfAvatar.moveTo(touch.globalX,touch.globalY);
+			}
 		}
 		
 		private function mouseDown(touch:Touch):void
 		{
-			trace("按下");
+			var p:Point = touch.getLocation(_spr);
+			_currentAvatar = _spr.getAvatarByPoint(p);
+			_currentPoint = new Point(_currentAvatar.x,_currentAvatar.y);
+			trace("按下",_currentAvatar);
+		}
+		
+		/**
+		 * 只能在圆圈内移动 
+		 * 
+		 */		
+		private function moveCircle():void
+		{
+			if(_currentAvatar.x)
+			{
+				
+			}
 		}
 		
 	}
